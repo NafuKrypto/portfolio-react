@@ -1,11 +1,19 @@
 // import logo from './logo.svg';
 import './App.css';
 // import Hello from './Hello';
+import Header from './header/header';
+import Hero from './homepage/hero';
+export function test() {}
 
 function App() {
   return (
     <div className="App">
-      {/* <Hello /> */}
+      <Header />
+      <Hero />
+      {/* <div>
+        <h1>Move your mouse around</h1>
+      </div> */}
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
